@@ -1,0 +1,70 @@
+    Tracing IPU2 Batche Execution 10/17/2005 7:32:54 PM
+    DAIMS IPU version 2.0.4.30315
+AMS Interface Version 1.0.1
+    Processing Folder: C:\temp\batch\ITLCSPA01_131-148\ITLCSPA01_ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+    Folder Set in ImageFolder class: C:\temp\batch\ITLCSPA01_131-148\ITLCSPA01_ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+    Reciept and GS Number with good MediaID C:\temp\batch\ITLCSPA01_131-148\ITLCSPA01_ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+    AMS Execute Event
+        event_name=RECEIPT AND GS ASSIGNMENT
+        Source=DAIMS
+        Section=IPU
+        transfer_media_number=5432
+        process_code=NEW
+        workstation=RUBY
+        uad=ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+        drive=d:\daimswork\
+        image_count=294
+        folder_size=1558779180
+        project_number=ITLCSPA01
+        week_end_date=10/14/2005
+        cam_oper_code=123
+        type_code=REPROCESS
+        Freightcarrier=
+        Airbill=
+        OriginatingAirport=
+        ShippedDate=10/17/2005
+        ImagedAtLocation1=Diocesi di Piazza 
+        ImagedAtLocation2=Armerina (ENNA)
+        ImagedAtLocation3=
+        donor_disk_size=0
+        donor_disk_cap=0
+        donor_disk_folder_count=0
+        donor_disk_id=0
+        retake_flag=
+        ORACLE ERROR
+            Mesage=Could not create an environment: OCIEnvCreate returned -1.
+            Source=System.Data.OracleClient
+            ConnectString=data source=A111CC;user ID=APPS;password=APPS
+            Command=FHD_CUST.FHD_PA_DAIMS_VAULT_DIGITAL.PR_DAIMS_DIGITAL
+            Parameters:
+                p_event_name=RECEIPT AND GS ASSIGNMENT
+                p_source=DAIMS
+                p_section=IPU
+                p_donor_disk_folder_count=0
+                p_donor_disk_size=0
+                p_donor_disk_cap=0
+                p_donor_disk_id=0
+                p_transfer_media_no=5432
+                p_process_code=NEW
+                p_workstation=RUBY
+                p_uad=ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+                p_drive=d:\daimswork\
+                p_image_count=294
+                p_folder_size=1558779180
+                p_project_number=ITLCSPA01
+                p_week_end_date=10/14/2005
+                p_cam_opr_code=123
+                p_type_code=REPROCESS
+                p_freight_carr_cd=
+                p_airbill_no=
+                p_orig_airport=
+                p_ship_date=10/17/2005
+                p_Location1=Diocesi di Piazza 
+                p_Location2=Armerina (ENNA)
+                p_Location3=
+                p_retake_flag=
+                p_out=
+                p_return_mesg=
+                p_settings_out=
+        IPUBatch.Execute Exception: AMSInterface--Ams Communications Error 
+Could not create an environment: OCIEnvCreate returned -1.

@@ -1,0 +1,41 @@
+Tracing IPU2 Batche Execution 10/14/2005 11:43:48 PM
+DAIMS IPU version 2.0.4.40857
+AMS Interface Version 1.0.1
+Processing Folder: F:\ITLCSPA01_131-148\ITLCSPA01_ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+Folder Set in ImageFolder class: F:\ITLCSPA01_131-148\ITLCSPA01_ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+Reciept and GS Number with good MediaID F:\ITLCSPA01_131-148\ITLCSPA01_ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+AMS Execute Event
+    event_name=RECEIPT AND GS ASSIGNMENT
+    Source=DAIMS
+    Section=IPU
+    transfer_media_number=12
+    process_code=NEW
+    workstation=RUBY
+    uad=ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+    drive=d:\daimswork\
+    image_count=294
+    folder_size=1558779180
+    project_number=ITLCSPA01
+    week_end_date=10/7/2005
+    cam_oper_code=123
+    type_code=REPROCESS
+    Freightcarrier=12
+    Airbill=12
+    OriginatingAirport=12
+    ShippedDate=10/14/2005
+    ImagedAtLocation1=Diocesi di Piazza 
+    ImagedAtLocation2=Armerina (ENNA)
+    ImagedAtLocation3=
+    donor_disk_size=0
+    donor_disk_cap=0
+    donor_disk_folder_count=0
+    donor_disk_id=0
+    retake_flag=
+    ORACLE ERROR
+        Mesage=Could not create an environment: OCIEnvCreate returned -1.
+        Source=System.Data.OracleClient
+        ConnectString=data source=A111CC;user ID=APPS;password=APPS
+        Command=FHD_CUST.FHD_PA_DAIMS_VAULT_DIGITAL.PR_DAIMS_DIGITAL
+        Parameters:
+    IPUBatch.Execute Exception: AMSInterface--Ams Communications Error 
+Could not create an environment: OCIEnvCreate returned -1.

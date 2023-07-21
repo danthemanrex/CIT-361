@@ -1,0 +1,33 @@
+Tracing IPU2 Batche Execution 10/17/2005 7:29:08 PM
+DAIMS IPU version 2.0.4.30315
+AMS Interface Version 1.0.1
+Processing Folder: C:\temp\batch\ITLCSPA01_131-148\ITLCSPA01_ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+Folder Set in ImageFolder class: C:\temp\batch\ITLCSPA01_131-148\ITLCSPA01_ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+Reciept and GS Number with good MediaID C:\temp\batch\ITLCSPA01_131-148\ITLCSPA01_ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+AMS Execute Event
+    event_name=RECEIPT AND GS ASSIGNMENT
+    Source=DAIMS
+    Section=IPU
+    transfer_media_number=5432
+    process_code=NEW
+    workstation=RUBY
+    uad=ENNA-PARROCCHIA-S.-TOMMASO-BATTESIMI-1586-1622
+    drive=d:\daimswork\
+    image_count=294
+    folder_size=1558779180
+    project_number=ITLCSPA01
+    week_end_date=10/14/2005
+    cam_oper_code=123
+    type_code=REPROCESS
+    Freightcarrier=
+    Airbill=
+    OriginatingAirport=
+    ShippedDate=10/17/2005
+    ImagedAtLocation1=Diocesi di Piazza 
+    ImagedAtLocation2=Armerina (ENNA)
+    ImagedAtLocation3=
+    donor_disk_size=0
+    donor_disk_cap=0
+    donor_disk_folder_count=0
+    donor_disk_id=0
+    retake_flag=
